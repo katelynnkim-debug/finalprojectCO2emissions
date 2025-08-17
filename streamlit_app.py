@@ -15,7 +15,8 @@ st.write("Looking at this plot, the global CO2 emissions start picking up around
 
 image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_facet%20(1).png?raw=true"
 st.image(image_url, caption="South Korea's Emissions and Temperatures (1980-2014) - Facet Plot", use_container_width=True)
-st.write("This facet plot shows us both variables, emissions and temperatures, plotted with its values throughout the years (1980-2014). As the years progress, both emissions and temperatures have gone up for South Korea, showing a positive correlation.")
+st.write("This facet plot shows us both variables, emissions and temperatures, plotted with its values throughout the years (1980-2014). As the years progress, both emissions and temperatures have gone up for South Korea, showing a positive association.")
 
 image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_scaled%20(1).png?raw=true"
 st.image(image_url, caption="South Korea's Emissions and Temperatures (1980-2014) - Linear Regression Plot", use_container_width=True)
+st.write("The positive association shown by the positive slope of the trend line in this plot corroborates the argument that increased CO₂ emissions tend to coincide with warmer conditions. However, the scatter of the plotted points indicates that other influences like natural climate variability, geographic effects, or policy changes also play a role year-to-year. Ultimately, the plot still shows a moderate positive correlation, showing that the two variables, emissions and temperatures, are likely to increase when the other does.")
