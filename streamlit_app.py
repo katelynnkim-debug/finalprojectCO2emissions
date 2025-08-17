@@ -5,12 +5,5 @@ import os
 st.title("CO₂ Dashboard (Notebook Preview) 🌍")
 st.write("The Republic of Korea's CO₂ Emissions Change in Time and Compared with the Rest of the World")
 
-image_name = st.text_input("Top10t.png")
-
-if image_name:
-    image_path = os.path.join("images", image_name)
-    if os.path.exists(image_path):
-        image = Image.open(image_path)
-        st.image(image, caption=f"Loaded: {image_name}", use_column_width=True)
-else: 
-    st.error("Image '{image_name}' not found in the 'images' folder.")
+image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/Top10t.png"
+st.image(image_url, caption="Top 10 CO2 Emission Producing Countries", use_column_width=True)
