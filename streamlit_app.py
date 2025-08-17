@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL import Image
+import os
 
 st.title("CO₂ Dashboard (Notebook Preview) 🌍")
 st.write("The Republic of Korea's CO₂ Emissions Change in Time and Compared with the Rest of the World")
