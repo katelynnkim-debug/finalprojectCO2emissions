@@ -5,7 +5,7 @@ import os
 st.title("CO₂ Dashboard (Notebook Preview) 🌍")
 st.write("The Republic of Korea's CO₂ Emissions Change in Time and Compared with the Rest of the World")
 
-image_name = st.text_input("Top10t.png", "CO2_world.png", "CO2_temp_sk.png", "CO2_temp_sk_scaled.png", "CO2_temp_sk_faceted.png")
+image_name = st.text_input("Top10t.png")
 
 if image_name:
     image_path = os.path.join("images", image_name)
