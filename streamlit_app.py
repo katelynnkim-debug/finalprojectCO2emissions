@@ -13,9 +13,9 @@ image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/
 st.image(image_url, caption="World CO2 Emissions Per Year (1751-2014)", use_container_width=True)
 st.write("Looking at this plot, the global CO2 emissions start picking up around the mid to late 1800s, which we can most likely attribute to the Industrial Revolution which happened around the same time. The use of coal, oil, and natural gas during the Industrial Revolution in combination with the invention of the automobile probably had a lot to do with the world's emissions taking a gradual incline. Obviously, with the influx of new inventions, the expansion of the market/consumerism, and the continuation of fossil fuel use, the increase of global CO2 emissions only became steeper as time went on. Only a century and a half later, in the 2000s, the world reached 30 million metric tonnes of CO2 emissions a year and maintained a steady increase.") 
 
-image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_facet.png?raw=true"
+image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_facet(1).png?raw=true"
 st.image(image_url, caption="South Korea's Emissions and Temperatures (1980-2014) - Facet Plot", use_container_width=True)
 st.write("This facet plot shows us both variables, emissions and temperatures, plotted with its values throughout the years (1980-2014). As the years progress, both emissions and temperatures have gone up for South Korea, showing a positive correlation.")
 
-image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_scaled.png?raw=true"
+image_url = "https://github.com/katelynnkim-debug/finalprojectCO2emissions/blob/main/CO2_temp_sk_scaled(1).png?raw=true"
 st.image(image_url, caption="South Korea's Emissions and Temperatures (1980-2014) - Linear Regression Plot", use_container_width=True)
